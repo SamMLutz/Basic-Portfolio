@@ -1,16 +1,64 @@
+body {
+}
+
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;
     float: right;
+    
+}
+
+header {
+
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #ffffff;
+    background-image: url("../images/white-waves.png");
+
+}
+
+nav {
+    
+    
+}
+
+h1 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+h2 {
+    color: #4aaaa5;
+    
 }
 
 
 li  {
+    padding: 20px;
     display: inline;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+  }
+
+img {
+    float: left;
 }
 
 p {
-    color: blue;
-}
+    
+  }
+
+  footer {
+      background-color: #666666;
+  }
+
+  
